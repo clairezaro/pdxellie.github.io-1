@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+// merlot theme needs the header to be located at top == 0, not 38
+header {
+    top: 0;
+}
+
 .site-nav ul {
     list-style-type: none;
     padding: 5px 0;
