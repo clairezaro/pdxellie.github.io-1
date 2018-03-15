@@ -9,3 +9,5 @@ layout: home
 ---
 
 Some home page content.
+
+![a test image](detox24-640x394.jpg)
