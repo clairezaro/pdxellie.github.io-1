@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+a {
+    color: DarkOrchid;
+}
 
 header .site-nav ul {
     list-style-type: none;
