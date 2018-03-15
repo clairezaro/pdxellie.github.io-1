@@ -4,15 +4,25 @@
 @import "{{ site.theme }}";
 
 
-.site-nav ul {
+header .site-nav ul {
     list-style-type: none;
     padding: 5px 0;
+    background: none;
+    border: none;
+    height: auto;
+    
     li {
-        display: inline;
-        padding-right: 10px;
+        width: auto;
+        float: none;
+        border-right: none;
+        height: auto;
+    
+        a {
+            text-align: left;
+            height: auto; 
+        }
+
     }
+    
 }
 
-.menu-separator {
-    padding-right: 10px;
-}
